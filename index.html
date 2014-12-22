@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+<script src="jqm/jquery-1.11.1.min.js"></script>
+<script src="jqm/jquery.mobile-1.4.5.min.js"></script>
+<script src="http://livechat.acneuro.com/netagent/client/unified/portalsettings.js" language="JavaScript"></script>
+<script src="http://livechat.acneuro.com/netagent/client/unified/includes2/portaldetection.js" language="JavaScript"></script>
+<style type="text/css">
+.ui-page {
+    background: transparent url(acn/bg.jpg);
+}
+.ui-panel {
+  background: transparent url(acn/bg.jpg);
+}
+</style>
+
+</head>
+<body>
+  <div data-role="page" id="pageone" data-theme="b">
+<!-- /header -->
+    <div data-role="header">
+      <img src="acn/ACN.png" alt="benevita" height="25" width="100" style="float:left;display:inline;padding-top:7px;">
+      <h1>ACN customer service </h1> 
+      <a href="#pageone" data-icon="home" class="ui-btn-right">Home</a>
+    </div>
+
+    <!--list view for country selection -->
+  <div data-role="listview" id="mylist" data-inset="true" data-theme="a">
+    <li><a href="#enPage"><img src="images/flags/48/en.png" alt="English" class="ui-li-icon ui-corner-none">English</a></li>
+    <li><a href="#daPage"><img src="images/flags/48/da.png" alt="Dansk" class="ui-li-icon">Dansk</a></li>
+    <li><a href="#nlPage"><img src="images/flags/48/nl.png" alt="Nederlands" class="ui-li-icon">Nederlands</a></li>
+    <li><a href="#frPage"><img src="images/flags/48/fr.png" alt="Français" class="ui-li-icon">Français</a></li>
+    <li><a href="#dePage"><img src="images/flags/48/de.png" alt="Deutsch" class="ui-li-icon">Deutsch</a></li>
+    <li><a href="#huPage"><img src="images/flags/48/hu.png" alt="Magyar" class="ui-li-icon">Magyar</a></li>
+    <li><a href="#itPage"><img src="images/flags/48/it.png" alt="Italiano" class="ui-li-icon">Italiano</a></li>
+    <li><a href="#plPage"><img src="images/flags/48/pl.png" alt="Polska" class="ui-li-icon">Polska</a></li>
+    <li><a href="#ptPage"><img src="images/flags/48/pt.png" alt="Português" class="ui-li-icon">Português</a></li>
+    <li><a href="#esPage"><img src="images/flags/48/es.png" alt="Español" class="ui-li-icon ui-corner-none">Español</a></li>
+  </div> 
+</div>
+
+  <!-- 1/english page -->
+  <div data-role="page" id="enPage" data-theme="b">
+  <!-- /header -->
+    <div data-role="header">
+      <img src="acn/ACN.png" alt="benevita" height="25" width="100" style="float:left;display:inline;padding-top:7px;">
+      <h1>acn-en</h1> 
+      <a href="#pageone" data-icon="home" class="ui-btn-right">Home</a>
+    </div>
+       <div data-role="content" align = "center" id="chatClient1">
+        <!-- START MOXIE SOFTWARE CHAT BUTTON -->
+        <script language="JavaScript">DetectDevice("86B045C1-927C-4ABA-8986-99F1A216822C", "chatClient1", " ",  " ");</script>
+        <!-- END MOXIE SOFTWARE CHAT BUTTON -->
+     </div>
+  </div>
+
+  <!-- 2/Dansk page -->
+   <div data-role="page" id="daPage" data-theme="b">
+  <!-- /header -->
+    <div data-role="header">
+      <img src="acn/ACN.png" alt="benevita" height="25" width="100" style="float:left;display:inline;padding-top:7px;">
+      <h1>acn-da</h1> 
+      <a href="#pageone" data-icon="home" class="ui-btn-right">Home</a>
+    </div>
+       <div data-role="content" align = "center">
+        <!-- START MOXIE SOFTWARE CHAT BUTTON -->
+        <span id="chatClient2"></span>
+        <script language="JavaScript">DetectDevice("97D5EFA3-C274-4019-81B8-93AB8BF33219", "chatClient2", " ",  " ");</script>
+        <!-- END MOXIE SOFTWARE CHAT BUTTON -->
+     </div>
+  </div>
+
+  <!-- 3/Nederlands page -->
+   <div data-role="page" id="nlPage" data-theme="b">
+  <!-- /header -->
+    <div data-role="header">
+      <img src="acn/ACN.png" alt="benevita" height="25" width="100" style="float:left;display:inline;padding-top:7px;">
+      <h1>acn-nl</h1> 
+      <a href="#pageone" data-icon="home" class="ui-btn-right">Home</a>
+    </div>
+       <div data-role="content" align = "center">
+        <!-- START MOXIE SOFTWARE CHAT BUTTON -->
+        <span id="chatClient3"></span>
+        <script language="JavaScript">DetectDevice("EC633F55-FA79-4FAC-ABBF-EE5FFBB70A52", "chatClient3", " ",  " ");</script>
+        <!-- END MOXIE SOFTWARE CHAT BUTTON -->
+     </div>
+  </div>
+
+  <!-- 4/Français page -->
+   <div data-role="page" id="frPage" data-theme="b">
+  <!-- /header -->
+    <div data-role="header">
+      <img src="acn/ACN.png" alt="benevita" height="25" width="100" style="float:left;display:inline;padding-top:7px;">
+      <h1>acn-fr</h1> 
+      <a href="#pageone" data-icon="home" class="ui-btn-right">Home</a>
+    </div>
+       <div data-role="content" align = "center">
+        <!-- START MOXIE SOFTWARE CHAT BUTTON -->
+        <span id="chatClient4"></span>
+        <script language="JavaScript">DetectDevice("79EB6DF8-45C0-45FD-8079-E6D766786B15", "chatClient4", " ",  " ");</script>
+        <!-- END MOXIE SOFTWARE CHAT BUTTON -->
+     </div>
+  </div>
+
+  <!-- 5/Deutsch page -->
+   <div data-role="page" id="dePage" data-theme="b">
+  <!-- /header -->
+    <div data-role="header">
+      <img src="acn/ACN.png" alt="benevita" height="25" width="100" style="float:left;display:inline;padding-top:7px;">
+      <h1>acn-de</h1> 
+      <a href="#pageone" data-icon="home" class="ui-btn-right">Home</a>
+    </div>
+     <div data-role="content" align = "center">
+        <!-- START MOXIE SOFTWARE CHAT BUTTON -->
+        <span id="chatClient5"></span>
+        <script language="JavaScript">DetectDevice("97D5EFA3-C274-4019-81B8-93AB8BF33219", "chatClient5", " ",  " ");</script>
+        <!-- END MOXIE SOFTWARE CHAT BUTTON -->
+     </div>
+  </div>
+
+  <!-- 6/Magyar page -->
+   <div data-role="page" id="huPage" data-theme="b">
+  <!-- /header -->
+    <div data-role="header">
+      <img src="acn/ACN.png" alt="benevita" height="25" width="100" style="float:left;display:inline;padding-top:7px;">
+      <h1>acn-hu</h1> 
+      <a href="#pageone" data-icon="home" class="ui-btn-right">Home</a>
+    </div>
+       <div data-role="content" align = "center">
+        <!-- START MOXIE SOFTWARE CHAT BUTTON -->
+        <span id="chatClient6"></span>
+        <script language="JavaScript">DetectDevice("BD37AD45-C9CE-4A21-BA98-2180E3A3C45B", "chatClient6", " ",  " ");</script>
+        <!-- END MOXIE SOFTWARE CHAT BUTTON -->
+     </div>
+  </div>
+
+  <!-- 7/Italiano page -->
+   <div data-role="page" id="itPage" data-theme="b">
+  <!-- /header -->
+    <div data-role="header">
+      <img src="acn/ACN.png" alt="benevita" height="25" width="100" style="float:left;display:inline;padding-top:7px;">
+      <h1>acn-it</h1> 
+      <a href="#pageone" data-icon="home" class="ui-btn-right">Home</a>
+    </div>
+       <div data-role="content" align = "center">
+        <!-- START MOXIE SOFTWARE CHAT BUTTON -->
+        <span id="chatClient7"></span>
+        <script language="JavaScript">DetectDevice("A7D93D97-04AE-4531-83B0-9E7DD98DF972", "chatClient7", " ",  " ");</script>
+        <!-- END MOXIE SOFTWARE CHAT BUTTON -->
+     </div>
+  </div>
+
+  <!-- 8/Polska page -->
+   <div data-role="page" id="plPage" data-theme="b">
+  <!-- /header -->
+    <div data-role="header">
+      <img src="acn/ACN.png" alt="benevita" height="25" width="100" style="float:left;display:inline;padding-top:7px;">
+      <h1>acn-pl</h1> 
+      <a href="#pageone" data-icon="home" class="ui-btn-right">Home</a>
+    </div>
+       <div data-role="content" align = "center">
+        <!-- START MOXIE SOFTWARE CHAT BUTTON -->
+        <span id="chatClient8"></span>
+        <script language="JavaScript">DetectDevice("7C786535-7DBE-40E6-BCB4-8BAFE72D3DF3", "chatClient8", " ",  " ");</script>
+        <!-- END MOXIE SOFTWARE CHAT BUTTON -->
+     </div>
+  </div>
+
+  <!-- 9/Português page -->
+   <div data-role="page" id="ptPage" data-theme="b">
+  <!-- /header -->
+    <div data-role="header">
+      <img src="acn/ACN.png" alt="benevita" height="25" width="100" style="float:left;display:inline;padding-top:7px;">
+      <h1>acn-pt</h1> 
+      <a href="#pageone" data-icon="home" class="ui-btn-right">Home</a>
+    </div>
+       <div data-role="content" align = "center">
+        <!-- START MOXIE SOFTWARE CHAT BUTTON -->
+        <span id="chatClient9"></span>
+        <script language="JavaScript">DetectDevice("373C284D-36E3-4DB6-AAAA-3FEF8D20D9DF", "chatClient9", " ",  " ");</script>
+        <!-- END MOXIE SOFTWARE CHAT BUTTON -->
+     </div>
+  </div>
+
+  <!-- 10/Español page -->
+   <div data-role="page" id="esPage" data-theme="b">
+  <!-- /header -->
+    <div data-role="header">
+      <img src="acn/ACN.png" alt="benevita" height="25" width="100" style="float:left;display:inline;padding-top:7px;">
+      <h1>acn-es</h1> 
+      <a href="#pageone" data-icon="home" class="ui-btn-right">Home</a>
+    </div>
+       <div data-role="content" align = "center">
+        <!-- START MOXIE SOFTWARE CHAT BUTTON -->
+        <span id="chatClient10"></span>
+        <script language="JavaScript">DetectDevice("6856F31C-EC5E-470A-8783-27F2CEAF596D", "chatClient10", " ",  " ");</script>
+
+        <!-- END MOXIE SOFTWARE CHAT BUTTON -->
+     </div>
+  </div>
+</body>
+</html>
